@@ -1,0 +1,5 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+
+/home/pi/co2/co2-serve.sh
