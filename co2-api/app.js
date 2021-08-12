@@ -5,9 +5,9 @@ const port = 3000
 const mysql = require('mysql2')
 const conn = mysql.createConnection({
 	host: 'localhost',
-	user: 'app',
-	password: 'raspberrypi3',
-	database: 'co2_observer'
+	user: 'raspberrypi',
+	password: 'raspberrypi',
+	database: 'co2_observe'
 });
 
 conn.connect((err) => {
